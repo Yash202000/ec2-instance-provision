@@ -13,15 +13,15 @@ Role Variables
 
 A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
 
-region: <region>
-type: <type>
-ami_id: <image-id>
-want_public_ip: <will>
-count: <number>
-subnet_id: <dubnet-id>
-key_name: <key>
-AWS_ACCESS_KEY_ID: <access-key>
-AWS_SECRET_ACCESS_KEY: <secret-key> 
+1. region: <region>
+2. type: <type>
+3. ami_id: <image-id>
+4. want_public_ip: <will>
+5. count: <number>
+6. subnet_id: <dubnet-id>
+7. key_name: <key>
+8. AWS_ACCESS_KEY_ID: <access-key>
+9. AWS_SECRET_ACCESS_KEY: <secret-key> 
     
 
 Dependencies
